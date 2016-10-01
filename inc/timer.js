@@ -4,7 +4,7 @@
 	----------------------------------------------------------
 */
 
-if (typeof sketch === 'undefined') sketch = {};
+if (typeof window.sketch === 'undefined') window.sketch = {};
 
 (function(root) { 'use strict';
 
@@ -136,7 +136,7 @@ root.ui.Timer = function(opts) {
 		setTimeout(opts.onstart, 250);
 	}
 
-	/* Public 
+	/* Public
 	---------------------------------------------------------- */
 	that.reset = function() {
 		setParams(opts);
@@ -208,4 +208,4 @@ var addStyleSheet = function() {
 	}
 };
 
-})(sketch);
+})(window.sketch);
