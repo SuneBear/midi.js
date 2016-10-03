@@ -1,6 +1,6 @@
 {
   "name": "midi.js",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A modern JavaScript port of MIDI.js.",
   "author": "SuneBear",
   "license": "MIT",
